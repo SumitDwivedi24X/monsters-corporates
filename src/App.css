@@ -7,8 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(
     to right,
-    rgba(7,27,82,1) 10%,
-    rgba(0,128,128,1) 100%
+    rgba(7, 27, 82, 1) 10%,
+    rgba(0, 128, 128, 1) 100%
   );
   text-align: center;
+}
+.app-title {
+  margin: 30px 0 30px 0;
+  font-size: 65px;
+  font-family: "Creepster", system-ui;
+  color: rgb(231, 66, 33);
+  -webkit-text-stroke: 1px black;
+}
+.monsters-search-box{
+  border: 1px solid rgb(231, 66, 33);
 }

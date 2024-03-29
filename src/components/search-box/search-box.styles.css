@@ -1,15 +1,19 @@
 .search-box{
-    border: none;
+    border: 2px solid black;
     outline: none;
     padding: 8px;
-    width: 200px;
-    height: 35px;
+    width: 210px;
+    height: 50px;
     line-height: 10px;
-    margin-top: 10px;
     margin-bottom: 30px;
-    border-radius: 2px;
+    border-radius: 5px;
+    font-size: medium;
 }
 .search-box::placeholder{
     color: rgb(34, 32, 32);
     font-style: italic;
+}
+input {
+    color: rgb(34, 32, 32);
+    background-color: #80d9d9;
 }
